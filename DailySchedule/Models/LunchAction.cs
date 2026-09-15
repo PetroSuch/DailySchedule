@@ -5,12 +5,7 @@ namespace Task.Models
     public class LunchAction : ActionItem
     {
         public LunchAction(int duration, TimeOnly startTime)
-            : base(
-                "Lunch",
-                duration,
-                startTime,
-                ActionType.Lunch
-            )
+            : base(ActionType.Lunch, duration, startTime)
         {
         }
     }

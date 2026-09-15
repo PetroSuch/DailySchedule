@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Task.Data.ActionData" Collapsed="true">
+    <Position X="21" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAQAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ActionData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task.Data.DailyScheduleData" Collapsed="true">
+    <Position X="18.25" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Data\DailyScheduleData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task.Data.DailyScheduleDataReader" Collapsed="true">
+    <Position X="18.25" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\DailyScheduleDataReader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task.Logic.DailySchedulerHelper" Collapsed="true">
+    <Position X="18.25" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABAEApAABAAAAAAAgAAQAAAAAABAAAEAAAIAEAAA=</HashCode>
+      <FileName>Logic\DailySchedulerHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task.Models.ActionItem" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAIAACAAAAABAAAAQAIAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Models\ActionItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Task.Models.BreakfastAction" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BreakfastAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task.Models.DailySchedule" Collapsed="true">
+    <Position X="22.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAABAAAAAAAAAAABAABAAAAAAAgAAA=</HashCode>
+      <FileName>Models\DailySchedule.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task.Models.DinnerAction" Collapsed="true">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\DinnerAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task.Models.LunchAction" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\LunchAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task.Models.SleepAction" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SleepAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task.Models.StudyAction" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\StudyAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task.Models.WalkAction" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\WalkAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task.Models.WatchingTvAction" Collapsed="true">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\WatchingTVAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task.UI.ConsoleMenu" Collapsed="true">
+    <Position X="18.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>UI\ConsoleMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task.UI.ScheduleWriter" Collapsed="true">
+    <Position X="18.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>UI\ScheduleWriter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Task.Program" Collapsed="true">
+    <Position X="18.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Task.Interfaces.IActionItem" Collapsed="true">
+    <Position X="18.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAQAIAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IActionItem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Task.Models.ActionType" Collapsed="true">
+    <Position X="18.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQABAAAAEAAABAAABAAAIAAAAAAAAAAAAFA=</HashCode>
+      <FileName>Models\ActionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Command" Collapsed="true">
+    <Position X="20" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAIAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQA=</HashCode>
+      <FileName>UI\Command.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

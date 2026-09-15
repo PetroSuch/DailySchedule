@@ -7,8 +7,7 @@ namespace Task.Models
     {
         private DateTime _date;
 
-        private List<ActionItem> _actions =
-            new List<ActionItem>();
+        private List<ActionItem> _actions = new List<ActionItem>();
 
         public DateTime Date
         {
@@ -22,14 +21,9 @@ namespace Task.Models
             set { _actions = value; }
         }
 
-        public void AddAction(
-            int addAfterIndex,
-            ActionItem action)
+        public void AddAction(int addAfterIndex, ActionItem action)
         {
-            _actions.Insert(
-                addAfterIndex,
-                action
-            );
+            _actions.Insert(addAfterIndex, action);
         }
     }
 }

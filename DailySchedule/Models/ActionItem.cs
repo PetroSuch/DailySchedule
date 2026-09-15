@@ -22,9 +22,7 @@ namespace Task.Models
             {
                 if (value <= 0)
                 {
-                    throw new ArgumentException(
-                        "Duration must be greater than 0."
-                    );
+                    throw new ArgumentException("Duration must be greater than 0.");
                 }
 
                 _duration = value;
@@ -39,13 +37,9 @@ namespace Task.Models
 
         public ActionType Type { get; set; }
 
-        public ActionItem(
-            string name,
-            int duration,
-            TimeOnly startTime,
-            ActionType type)
+        public ActionItem(ActionType type, int duration, TimeOnly startTime)
         {
-            Name = name;
+            Name = type.ToString();
             Duration = duration;
             StartTime = startTime;
             Type = type;
